@@ -17,7 +17,7 @@
 
 
 import { useDispatch } from 'react-redux';
-import { changeContact } from '../../redux/filtersSlice';
+import { changeFilter } from '../../redux/filtersSlice';
 import s from './SearchBox.module.css';
 
 
@@ -29,7 +29,7 @@ const SearchBox = () => {
     <input
       type="text"
       
-      onChange={(e) => dispatch(changeContact(e.target.value))}
+      onChange={(e) => dispatch(changeFilter(e.target.value))}
       className={s.input}
     />
   </div>)
