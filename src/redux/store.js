@@ -18,7 +18,7 @@ import {
     key: 'root',
     version: 1,
     storage,
-    whitelist: ['contacts.items']
+    whitelist: ['items']
     
    
   }
